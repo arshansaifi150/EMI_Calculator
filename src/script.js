@@ -13,7 +13,7 @@ form.addEventListener("submit", (e) => {
 
   const moneyWithInterest = (Emi * monthsToPay).toFixed(2);
 
-  totalInterestMoney.innerHTML = `<h3>Total Loan with interest:- ${moneyWithInterest} </h3>`;
+  totalInterestMoney.innerHTML = `<h3>Total Loan with interest:- ${moneyWithInterest} $</h3>`;
   // console.log(loanAmount)
   // console.log(interestRate)
   // console.log(monthsToPay)
